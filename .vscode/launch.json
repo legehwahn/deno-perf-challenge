@@ -1,0 +1,23 @@
+{
+	"configurations": [
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Debug Runtime",
+			"runtimeExecutable": "deno",
+			"runtimeArgs": [
+				"run",
+				"--inspect",
+				"--allow-all",
+				"--unstable",
+				"mod.ts"
+			],
+			"env": {
+				"PORT": "3000"
+			},
+			"cwd": "${workspaceFolder}",
+			"attachSimplePort": 9229,
+			"autoAttachChildProcesses": true
+		}
+	]
+}
