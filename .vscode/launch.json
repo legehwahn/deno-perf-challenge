@@ -7,7 +7,7 @@
 			"runtimeExecutable": "deno",
 			"runtimeArgs": [
 				"run",
-				"--inspect",
+				"--inspect-brk",
 				"--allow-all",
 				"--unstable",
 				"mod.ts"
